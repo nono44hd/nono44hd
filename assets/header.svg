@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Noel, nono44hd: Azubi Fachinformatiker Systemintegration, Homelab, Selfhosting">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1A1626" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.82" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.12" cy="0.9" r="0.45">
+      <stop offset="0" stop-color="#B6F746" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#B6F746" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="typing">
+      <rect x="116" y="40" height="50" width="420">
+        <animate attributeName="width" values="0;420" dur="1.6s" begin="0s" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,"JetBrains Mono","Cascadia Code",Menlo,Consolas,"DejaVu Sans Mono",monospace}
+      .sans{font-family:Inter,"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif}
+      .blink{animation:blink 1.1s steps(1) infinite}
+      .rise{animation:rise .7s ease-out both}
+      .d1{animation-delay:.9s}.d2{animation-delay:1.1s}.d3{animation-delay:1.3s}
+      @keyframes blink{50%{opacity:0}}
+      @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="400" fill="#0C0A12"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+  <rect width="1200" height="400" fill="url(#glow2)"/>
+
+  <!-- Prompt -->
+  <rect x="60" y="46" width="40" height="40" rx="6" fill="#B6F746"/>
+  <text x="68" y="74" class="mono" font-size="20" font-weight="700" fill="#12160A">&gt;_</text>
+  <g clip-path="url(#typing)">
+    <text x="116" y="74" class="mono" font-size="22" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs"><tspan fill="#B6F746">noel@homelab</tspan><tspan fill="#6E6390">:~$</tspan><tspan fill="#F5F1FB"> cat README.md</tspan></text>
+  </g>
+  <rect x="514" y="54" width="12" height="26" fill="#B6F746" class="blink"/>
+
+  <!-- Name -->
+  <text x="56" y="252" class="sans" font-size="158" font-weight="800" fill="#F5F1FB" textLength="400" lengthAdjust="spacingAndGlyphs">NOEL</text>
+  <rect x="494" y="128" width="58" height="126" fill="#B6F746" class="blink"/>
+
+  <!-- Unterzeilen -->
+  <text x="60" y="306" class="mono" font-size="21" fill="#ABA1C0">Azubi Fachinformatiker Systemintegration</text>
+  <text x="60" y="342" class="mono" font-size="21" xml:space="preserve"><tspan fill="#FF4D5E" font-weight="700">ENDBOSS AP2</tspan><tspan fill="#ABA1C0"> · Homelab · Selfhosting · 3D-Druck</tspan></text>
+
+  <!-- Stat-Karten -->
+  <g class="rise d1">
+    <path d="M800 58H1150V122L1136 136H800Z" fill="#16121F" stroke="#2E2643"/>
+    <text x="826" y="113" class="sans" font-size="46" font-weight="800" fill="#B6F746">2</text>
+    <text x="950" y="92" class="mono" font-size="18" fill="#F5F1FB">eigene Apps</text>
+    <text x="950" y="116" class="mono" font-size="16" fill="#6E6390">Root &amp; Sudo</text>
+  </g>
+  <g class="rise d2">
+    <path d="M800 156H1150V220L1136 234H800Z" fill="#16121F" stroke="#2E2643"/>
+    <text x="826" y="211" class="sans" font-size="46" font-weight="800" fill="#9D7BFF">59k</text>
+    <text x="950" y="190" class="mono" font-size="18" fill="#F5F1FB">Zeilen Code</text>
+    <text x="950" y="214" class="mono" font-size="16" fill="#6E6390">in 6 Repos</text>
+  </g>
+  <g class="rise d3">
+    <path d="M800 254H1150V318L1136 332H800Z" fill="#16121F" stroke="#2E2643"/>
+    <text x="826" y="309" class="sans" font-size="46" font-weight="800" fill="#B6F746">1</text>
+    <text x="950" y="288" class="mono" font-size="18" fill="#F5F1FB">Homelab</text>
+    <text x="950" y="312" class="mono" font-size="16" fill="#6E6390">als Code überwacht</text>
+  </g>
+
+  <rect y="392" width="1200" height="8" fill="#B6F746"/>
+</svg>
