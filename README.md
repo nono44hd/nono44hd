@@ -4,11 +4,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1100&color=B6F746&center=true&vCenter=true&width=760&lines=Meine+Apps+hei%C3%9Fen+Root+und+Sudo.+Ja%2C+mit+Absicht.;Selbst+gehostet.+Hinter+Twingate.+Mit+Monitoring.;Git-Repos+als+Postfach+f%C3%BCr+meine+KI-Routinen.;AP2+wird+geladen...+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91" alt="Root und Sudo · Selbst gehostet · Git als Postfach · AP2 lädt" />
 
-<a href="#-projekte"><b>Projekte</b></a> &nbsp;·&nbsp;
-<a href="#-wie-alles-zusammenhängt"><b>Ökosystem</b></a> &nbsp;·&nbsp;
-<a href="#-das-homelab"><b>Homelab</b></a> &nbsp;·&nbsp;
-<a href="#-werkzeugkasten"><b>Stack</b></a> &nbsp;·&nbsp;
-<a href="#-quest-log"><b>Quest-Log</b></a>
+<a href="#projekte"><b>Projekte</b></a> &nbsp;·&nbsp;
+<a href="#wie-alles-zusammenhängt"><b>Ökosystem</b></a> &nbsp;·&nbsp;
+<a href="#das-homelab"><b>Homelab</b></a> &nbsp;·&nbsp;
+<a href="#werkzeugkasten"><b>Stack</b></a> &nbsp;·&nbsp;
+<a href="#quest-log"><b>Quest-Log</b></a>
 
 </div>
 
@@ -20,22 +20,22 @@ $ fastfetch
 
 ```text
   ╔═════════════════════╗    noel@nono44hd
-  ║ ▄▄ ▄▄  ░░░░░░  ▐██▌ ║    ──────────────────────────────────────
-  ╟─────────────────────╢    Beruf     Azubi FISI · IHK Bonn/Rhein-Sieg
+  ║ ▄▄ ▄▄  ░░░░░░  ▐██▌ ║    ─────────────
+  ╟─────────────────────╢    Beruf     Azubi Fachinformatiker Systemintegration
   ║ ▄▄ ▄▄  ░░░░░░  ▐██▌ ║    Quest     AP2 · Endboss in Sicht
   ╟─────────────────────╢    OS        CachyOS x86_64 · KDE Plasma 6
   ║ ▄▄ ▄▄  ░░░░░░  ▐██▌ ║    Zweit-OS  Kali Linux · Windows 11
   ╟─────────────────────╢    Shell     fish
   ║ ▄▄ ▄▄  ░░░░░░  ▐██▌ ║    Homelab   Proxmox · OPNsense · TrueNAS
-  ╟─────────────────────╢    KI        Colibri & Kolibri (lokal) + Claude
-  ║ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ║    Apps      Root 1.4.2 · Sudo 0.38.3
-  ╚═════════════════════╝    Hobbys    3D-Druck · Cosplay · Minecraft
-    ▀▀▀             ▀▀▀      Motto     Läuft nur, was ein Dashboard hat.
+  ╟─────────────────────╢    Apps      Root 1.4.2 · Sudo 0.38.3
+  ║ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ║    Hobbys    3D-Druck · Cosplay · Minecraft
+  ╚═════════════════════╝
+    ▀▀▀             ▀▀▀
 ```
 
 ---
 
-## 🚀 Projekte
+## Projekte
 
 > `sudo` ohne `root`? Gibt's bei mir nicht. Meine zwei Apps sind Geschwister: gleicher Unterbau, gleicher Server, gleiche Liebe zum Detail.
 
@@ -45,16 +45,16 @@ $ fastfetch
 
 <a href="https://github.com/nono44hd/Root-Lernapp"><img src="assets/root-banner.svg" width="100%" alt="Root: Lern-App für die FISI-Abschlussprüfung" /></a>
 
-### 📚 [Root](https://github.com/nono44hd/Root-Lernapp) &nbsp;<img src="https://img.shields.io/badge/v1.4.2-B6F746?style=flat-square" alt="v1.4.2" />
+### [Root](https://github.com/nono44hd/Root-Lernapp) &nbsp;<img src="https://img.shields.io/badge/v1.4.2-B6F746?style=flat-square" alt="v1.4.2" />
 
 **Die Lern-App für die FISI-Abschlussprüfung.** Gebaut, weil ich sie selbst brauche.
 
-- 🗓️ Der Lernplan rechnet rückwärts vom Prüfungsdatum
-- 🎮 20 Level pro Thema, Ränge von *Praktikant* bis ***Gott***
-- 🧠 Karteikarten mit FSRS (wie Anki), 7 Fragetypen, Wochen-Boss
-- 📝 Probe-AP1 und Probe-AP2 als 20-Minuten-Kurztest
-- 🧮 Subnetz-, RAID- und Datenmengen-Rechner, alles offline
-- 📸 Tafelbild hochladen, die KI baut ein Lernpaket daraus
+- Der Lernplan rechnet rückwärts vom Prüfungsdatum
+- 20 Level pro Thema, Ränge von *Praktikant* bis ***Gott***
+- Karteikarten mit FSRS (wie Anki), 7 Fragetypen, Wochen-Boss
+- Probe-AP1 und Probe-AP2 als 20-Minuten-Kurztest
+- Subnetz-, RAID- und Datenmengen-Rechner, alles offline
+- Tafelbild hochladen, die KI baut ein Lernpaket daraus
 
 ![Svelte](https://img.shields.io/badge/Svelte_5-0C0A12?style=flat-square&logo=svelte&logoColor=FF3E00)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0C0A12?style=flat-square&logo=typescript&logoColor=3178C6)
@@ -62,23 +62,23 @@ $ fastfetch
 ![SQLite](https://img.shields.io/badge/SQLite-0C0A12?style=flat-square&logo=sqlite&logoColor=4FC3F7)
 ![PWA](https://img.shields.io/badge/PWA-0C0A12?style=flat-square&logo=pwa&logoColor=B07CFF)
 
-📮 Postfach: [**Root-Quellen**](https://github.com/nono44hd/Root-Quellen)
+Postfach: [**Root-Quellen**](https://github.com/nono44hd/Root-Quellen)
 
 </td>
 <td width="50%" valign="top">
 
 <a href="https://github.com/nono44hd/Sudo-Kochapp"><img src="assets/sudo-banner.png" width="100%" alt="Sudo: Aus Kochvideos werden Rezepte" /></a>
 
-### 🍳 [Sudo](https://github.com/nono44hd/Sudo-Kochapp) &nbsp;<img src="https://img.shields.io/badge/v0.38.3-7FC8FF?style=flat-square" alt="v0.38.3" />
+### [Sudo](https://github.com/nono44hd/Sudo-Kochapp) &nbsp;<img src="https://img.shields.io/badge/v0.38.3-7FC8FF?style=flat-square" alt="v0.38.3" />
 
 **Aus Kochvideos werden Rezepte.** Die kleine Schwester von Root.
 
-- 🔗 YouTube-, TikTok- oder Instagram-Link rein, Rezept raus
-- 🎙️ Liest Beschreibung und Untertitel oder hört per Whisper zu
-- 🥕 *Was hast du da?* zeigt, was mit dem Vorrat geht: „Fehlt nur eins“
-- ⏲️ Kochmodus mit Timer, Vorlesen und Portionsrechner
-- 🛒 Wochenplan, Meal Prep, Einkaufsliste nach Ladenbereichen
-- 🧠 Lokales Modell als Standard, Claude auf Knopfdruck
+- YouTube-, TikTok- oder Instagram-Link rein, Rezept raus
+- Liest Beschreibung und Untertitel oder hört per Whisper zu
+- *Was hast du da?* zeigt, was mit dem Vorrat geht: „Fehlt nur eins“
+- Kochmodus mit Timer, Vorlesen und Portionsrechner
+- Wochenplan, Meal Prep, Einkaufsliste nach Ladenbereichen
+- Lokales Modell als Standard, Claude auf Knopfdruck
 
 ![Svelte](https://img.shields.io/badge/Svelte_5-0C0A12?style=flat-square&logo=svelte&logoColor=FF3E00)
 ![Fastify](https://img.shields.io/badge/Fastify-0C0A12?style=flat-square&logo=fastify&logoColor=white)
@@ -86,21 +86,21 @@ $ fastfetch
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-0C0A12?style=flat-square&logo=youtube&logoColor=FF0000)
 ![Whisper](https://img.shields.io/badge/Whisper-0C0A12?style=flat-square&logo=openai&logoColor=white)
 
-📮 Postfach: [**Sudo-Quellen**](https://github.com/nono44hd/Sudo-Quellen)
+Postfach: [**Sudo-Quellen**](https://github.com/nono44hd/Sudo-Quellen)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 📈 [homelab-monitoring](https://github.com/nono44hd/homelab-monitoring)
+### [homelab-monitoring](https://github.com/nono44hd/homelab-monitoring)
 
 **Mein Homelab, als Code überwacht.**
 
-- 📊 Prometheus sammelt, Grafana zeigt, 30 Tage Verlauf
-- 🧪 Ein Skript prüft alles (`promtool`, Regeltests, JSON) und spielt erst dann ein
-- 🚨 Alarme per ntfy aufs iPhone, schon vorbereitet
-- 🧩 Root liefert Metriken, Proxmox, OPNsense und TrueNAS folgen
+- Prometheus sammelt, Grafana zeigt, 30 Tage Verlauf
+- Ein Skript prüft alles (`promtool`, Regeltests, JSON) und spielt erst dann ein
+- Alarme per ntfy aufs iPhone, schon vorbereitet
+- Root liefert Metriken, Proxmox, OPNsense und TrueNAS folgen
 
 ```sh
 git pull && sudo ./scripts/einspielen.sh
@@ -114,14 +114,14 @@ git pull && sudo ./scripts/einspielen.sh
 </td>
 <td width="50%" valign="top">
 
-### 🎨 [Design-Standard](https://github.com/nono44hd/Design-Standard)
+### [Design-Standard](https://github.com/nono44hd/Design-Standard)
 
 **Ein Befehl, und jeder Rechner sieht aus wie meiner.**
 
-- 🐧 KDE Plasma 6 für CachyOS und Kali, Installer auch für Windows 11
-- 🎨 Layan, Tela-Circle-Icons, Sweet-Cursor und Darkly
-- 🖼️ Wallpaper bis ins GRUB-Boot-Menü und den Login
-- 📦 Programme, AUR-Helfer und Gaming-Pakete gleich mit
+- KDE Plasma 6 für CachyOS und Kali, Installer auch für Windows 11
+- Layan, Tela-Circle-Icons, Sweet-Cursor und Darkly
+- Wallpaper bis ins GRUB-Boot-Menü und den Login
+- Programme, AUR-Helfer und Gaming-Pakete gleich mit
 
 ```bash
 bash install.sh   # neu starten, fertig
@@ -137,7 +137,7 @@ bash install.sh   # neu starten, fertig
 </table>
 
 <details>
-<summary><b>📸 Screenshots ansehen</b></summary>
+<summary><b>Screenshots ansehen</b></summary>
 <br/>
 
 <p align="center">
@@ -158,28 +158,28 @@ bash install.sh   # neu starten, fertig
 
 ---
 
-## 🧩 Wie alles zusammenhängt
+## Wie alles zusammenhängt
 
 ```mermaid
 flowchart LR
-    DEV["📱 iPhone · iPad · Laptop"]:::dev
-    PCS["💻 CachyOS · Kali · Windows"]:::dev
-    DS["🎨 Design-Standard"]:::ds
+    DEV["iPhone · iPad · Laptop"]:::dev
+    PCS["CachyOS · Kali · Windows"]:::dev
+    DS["Design-Standard"]:::ds
 
-    subgraph LAB["🏠 Homelab · Proxmox"]
-        CADDY["🔒 Caddy"]:::infra
-        ROOT["📚 Root"]:::root
-        SUDO["🍳 Sudo"]:::sudo
-        KI["🧠 Lokale KI"]:::infra
-        MON["📈 Prometheus + Grafana"]:::infra
+    subgraph LAB["Homelab · Proxmox"]
+        CADDY["Caddy"]:::infra
+        ROOT["Root"]:::root
+        SUDO["Sudo"]:::sudo
+        KI["Lokale KI"]:::infra
+        MON["Prometheus + Grafana"]:::infra
     end
 
-    subgraph GH["🐙 GitHub · Postfächer"]
-        RQ["📮 Root-Quellen"]:::box
-        SQ["📮 Sudo-Quellen"]:::box
+    subgraph GH["GitHub · Postfächer"]
+        RQ["Root-Quellen"]:::box
+        SQ["Sudo-Quellen"]:::box
     end
 
-    AI(("🤖 Claude-Routine")):::ai
+    AI(("Claude-Routine")):::ai
 
     DEV -->|Twingate| CADDY
     CADDY --> ROOT
@@ -205,11 +205,11 @@ flowchart LR
 **Git als Postfach:** Für die schwere KI-Arbeit legen Root und Sudo einen Auftrag in ihr eigenes Quellen-Repo. Eine Claude-Routine schreibt das Ergebnis zurück, die App holt es ab, prüft es und räumt auf. Ohne Cloud-Backend, mit Git-Verlauf.
 
 ```text
-App ──▶ eingang/<id> ──▶ 🤖 Claude-Routine ──▶ pakete/<id> ──▶ App prüft & importiert
+App ──▶ eingang/<id> ──▶ Claude-Routine ──▶ pakete/<id> ──▶ App prüft & importiert
 ```
 
 > [!TIP]
-> **🔐 Sicherheit mitgedacht**
+> **Sicherheit mitgedacht**
 > - Fine-grained Token: Jede App darf nur ihr eigenes Postfach-Repo
 > - Im Eingang liegt immer nur **ein Konto**, damit eine Quelle keine fremden Daten abgreifen kann
 > - Quellen sind Daten, keine Anweisungen: Übernommen wird nur, was das Format erfüllt
@@ -217,29 +217,29 @@ App ──▶ eingang/<id> ──▶ 🤖 Claude-Routine ──▶ pakete/<id> �
 
 ---
 
-## 🏠 Das Homelab
+## Das Homelab
 
 <details>
-<summary><b>🔓 Rack aufschließen</b></summary>
+<summary><b>Rack aufschließen</b></summary>
 <br/>
 
-| | Baustein | Aufgabe |
-|:-:|---|---|
-| 🖥️ | **Proxmox** | Virtualisierung mit VMs und LXC-Containern |
-| 🛡️ | **OPNsense** + Kea DHCP | Firewall, Router, DHCP |
-| 💾 | **TrueNAS** | Storage |
-| 🐳 | **Docker-VM** | Root und Sudo hinter Caddy, read-only und mit Healthcheck |
-| 📈 | **Monitoring-CT** | Prometheus, Grafana, Alertmanager |
-| 🧠 | **Colibri & Kolibri** | Lokale LLMs auf dem Homeserver |
-| 🔐 | **Twingate** | Zugriff von unterwegs, die Apps sind nur so erreichbar |
-| 🌍 | **Playit.gg** | Tunnel für Spieleserver |
-| 🎮 | **AMP** | Game-Server-Verwaltung |
+| Baustein | Aufgabe |
+|---|---|
+| **Proxmox** | Virtualisierung mit VMs und LXC-Containern |
+| **OPNsense** + Kea DHCP | Firewall, Router, DHCP |
+| **TrueNAS** | Storage |
+| **Docker-VM** | Root und Sudo hinter Caddy, read-only und mit Healthcheck |
+| **Monitoring-CT** | Prometheus, Grafana, Alertmanager |
+| **Colibri & Kolibri** | Lokale LLMs auf dem Homeserver |
+| **Twingate** | Zugriff von unterwegs, die Apps sind nur so erreichbar |
+| **Playit.gg** | Tunnel für Spieleserver |
+| **AMP** | Game-Server-Verwaltung |
 
 </details>
 
 ---
 
-## 🧰 Werkzeugkasten
+## Werkzeugkasten
 
 <div align="center">
 
@@ -283,7 +283,7 @@ Shell       █░░░░░░░░░░░░░░░░░░░░░�
 
 ---
 
-## 🎯 Quest-Log
+## Quest-Log
 
 - [x] Root live: 16 Etappen gebaut, 4 Prüfrunden bestanden
 - [x] Sudo: alle Funktionen für 1.0 gebaut
@@ -292,10 +292,10 @@ Shell       █░░░░░░░░░░░░░░░░░░░░░�
 - [ ] Sudo 1.0: Prüfrunde und Freigabe
 - [ ] Monitoring für Proxmox, OPNsense und TrueNAS, Alarme aufs Handy
 - [ ] Cosplay komplett drucken
-- [ ] 🐉 **Endboss AP2 besiegen**
+- [ ] **Endboss AP2 besiegen**
 
 <details>
-<summary><b>🎲 Fun Facts</b></summary>
+<summary><b>Fun Facts</b></summary>
 <br/>
 
 - Root kennt fünf Ränge: Praktikant → Azubi → Admin → Root → **Gott**.
@@ -307,7 +307,7 @@ Shell       █░░░░░░░░░░░░░░░░░░░░░�
 
 ---
 
-## 📊 Stats
+## Stats
 
 <div align="center">
 
@@ -322,5 +322,5 @@ Shell       █░░░░░░░░░░░░░░░░░░░░░�
 
 ```console
 noel@homelab:~$ exit
-logout · Danke fürs Vorbeischauen ✌️
+logout · Danke fürs Vorbeischauen
 ```
